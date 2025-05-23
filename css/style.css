@@ -464,3 +464,23 @@ ul.menu li:hover {
 
     }
 }
+
+@media screen and (max-width: 300px) {
+
+
+    html,
+    body {
+        max-width: 300px;
+    }
+
+    header {
+        min-width: 130px;
+        /* max-width: 900px; */
+        height: 70px;
+    }
+
+    .div {
+        min-width: 100px;
+
+    }
+}
